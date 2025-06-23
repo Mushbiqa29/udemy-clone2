@@ -60,7 +60,29 @@ body {
   border-radius: 8px;
   transition: all 0.3s ease;
 }
-
+.mylearning{
+position:relative;
+}
+.mylearningpopup{
+  position:absolute;
+  background-color: white;
+  border: #222 2px solid ;
+  padding: 10px;
+  top: 30px;
+  width:220px;
+  display:none;
+}
+.mylearningpopup h3{
+  background: linear-gradient(to right, #bdb6b6, #111111);
+  color: white;
+  transform: scale(1.08) rotate(-2deg);
+  box-shadow: 0 6px 15px rgba(164, 53, 240, 0.3);
+  border-radius: 20px;
+  padding: 10px;
+}
+.mylearning:hover .mylearningpopup{
+  display: block;
+}
 .navbar__s3 i:hover,
 .navbar__s3 p:hover {
   background: linear-gradient(to right, #a435f0, #6a1b9a);
@@ -68,6 +90,7 @@ body {
   transform: scale(1.08) rotate(-2deg);
   box-shadow: 0 6px 15px rgba(164, 53, 240, 0.3);
 }
+
 .categories {
   display: flex;
   justify-content: center;
