@@ -136,7 +136,7 @@ position:relative;
   padding: 2rem;
   border-radius: 15px;
   color: rgb(0, 0, 0);
-  max-width: 320px;
+  width: 320px;
   animation: floatCard 3s ease-in-out infinite;
   box-shadow: 0 10px 30px rgba(233, 224, 224, 0.5);
     border:#222 groove 2px;
@@ -328,13 +328,23 @@ position:relative;
   display:block;
 }
 .hero-left-cta {
-  max-width: 220px;
+  max-width: 120px;
+  max-height: 120px;
+  padding: 5px;
+  position: relative;
+  bottom: 60px;
 }
 .hero-left-cta h1 {
   font-size: 1rem;
 }
 .hero-left-cta p {
   font-size: 0.5rem;
+}
+.hero-left-cta button{
+  font-size: 0.3rem;
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
 }
 }
 
