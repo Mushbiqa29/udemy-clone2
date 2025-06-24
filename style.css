@@ -331,8 +331,8 @@ position:relative;
   max-width: 120px;
   max-height: 120px;
   padding: 5px;
-  position: relative;
-  bottom: 60px;
+  bottom:-300px;
+  z-index: 7;
 }
 .hero-left-cta h1 {
   font-size: 1rem;
@@ -343,8 +343,15 @@ position:relative;
 .hero-left-cta button{
   font-size: 0.3rem;
   position: absolute;
-  bottom: 0px;
+  bottom: 3px;
   left: 15px;
+}
+.heroimage img{
+  height: 200px;
+}
+.heroimage{
+  height: 200px;
+  position: relative;
 }
 }
 
